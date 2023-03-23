@@ -26,3 +26,6 @@ class Grade:
         self.course = course
         self.weight = weight
         self.date = date
+
+
+##Kommt jetzt eine Änderung wenn ich das hier schreibe?
