@@ -20,7 +20,7 @@ class Klasse:
         self.students = students
 
 class Grade:
-    def __init__(self, level: int, student: Students, weight: float, course: Course, date: date):
+    def __init__(self, level: int, student: Students, weight: float, course: Course, date: Date):
         self.level = level
         self.student = student
         self.course = course
