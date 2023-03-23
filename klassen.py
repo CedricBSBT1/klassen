@@ -3,7 +3,7 @@ class Teacher:
         self.first_name = first_name
         self.last_name = last_name
 
-class Students:
+class Student:
     def __init__(self, first_name: str, last_name: str):
         first_name = first_name
         last_name = last_name
@@ -13,9 +13,9 @@ class Course:
         self.name = name
 
 class Klasse:
-    def __init__(self, name: str, Students: list[Student] = []):
+    def __init__(self, name: str, students: list[Student] = []):
         self.name = name
-        self.student = students
+        self.students = students
 
 class Grade:
     def __init__(self, level: int, student: Students, weight: float, course: Course, date: date):
