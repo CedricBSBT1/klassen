@@ -36,3 +36,4 @@ class Grade:
 lukas = Student("Lukas", "Lang")
 biologie = Course("Biologie")
 mark = Grade(5, lukas, biologie, 2, datetime.date.today())
+# Kommentar
